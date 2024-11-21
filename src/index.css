@@ -1,0 +1,61 @@
+/* src/index.css */
+
+/* Set the background image for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNMYIx7I-Z8VqEbJr3BxCpwMzxJex6Vb2b3VOQ0c6T1FMLhVm_F9ApTg&sjpg'); /* URL of your background image */
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-position: center; /* Keeps the image centered */
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
+
+/* Style for the main container */
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Add slight transparency to the background */
+  border-radius: 8px;
+}
+
+/* Header section styling */
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+/* File Upload Section */
+.file-upload-container, .query-form-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8); /* Add slight transparency to section backgrounds */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for buttons */
+button {
+  padding: 8px 16px;
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Style for inputs */
+input[type="file"], input[type="text"] {
+  padding: 8px;
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
